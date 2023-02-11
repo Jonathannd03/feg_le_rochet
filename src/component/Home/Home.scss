@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+.welcome{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 1.5rem;
+
+    .welcome-msg{
+        display: block;
+        text-align: center;
+        width: 60%;
+    }
+    h1, h4{
+        font-family: 'Cantarell', sans-serif;
+    }
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    justify-items: center;
+    margin: 3rem 0;
+}
+
+//tablet
+@media screen and (max-width: 992px) {
+    .welcome{
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+        font-family: 'Cantarell', sans-serif;
+    
+        .welcome-msg{
+            display: block;
+            text-align: center;
+            width: 80%;
+        }
+        h1, h4{
+            font-family: 'Cantarell', sans-serif;
+        }
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        justify-items: center;
+        margin: 3rem 0;
+    }
+  }
+
+  //mobile
+@media screen and (max-width: 600px){
+
+    .welcome{
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+        font-family: 'Cantarell', sans-serif;
+        font-size: 1.1rem;
+    
+        .welcome-msg{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
+        h1, h4{
+            font-family: 'Cantarell', sans-serif;
+        }
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        justify-items: center;
+        margin: 3rem 0;
+    }
+}
