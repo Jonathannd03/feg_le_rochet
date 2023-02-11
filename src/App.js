@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Home from "./component/Home/Home";
+import VernetzenElement from "./component/Vernetzen/VernetzenElement";
+import UberUns from "./component/Ueber uns/UberUns";
+import NavbarElement from "./component/Navbar/NavbarElement";
+import KontaktElement from "./component/Kontakt/KontaktElement";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavbarElement />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/vernetzen" element={<VernetzenElement />} />
+        <Route path="/ueber-uns" element={<UberUns />} />
+        <Route path="/kontakt" element={<KontaktElement />} />
+      </Routes>
+    </>
   );
 }
 
