@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="705" height="352.884" viewBox="0 0 705 352.884">
+  <g id="Gruppe_2" data-name="Gruppe 2" transform="translate(-820.265 -153.73)">
+    <path id="Icon_awesome-cross" data-name="Icon awesome-cross" d="M226.848,82.49H164.98V20.623A20.625,20.625,0,0,0,144.358,0H103.113A20.625,20.625,0,0,0,82.49,20.623V82.49H20.623A20.625,20.625,0,0,0,0,103.113v41.245A20.625,20.625,0,0,0,20.623,164.98H82.49V309.338a20.625,20.625,0,0,0,20.623,20.623h41.245a20.625,20.625,0,0,0,20.623-20.623V164.98h61.868a20.625,20.625,0,0,0,20.623-20.623V103.113A20.625,20.625,0,0,0,226.848,82.49Z" transform="translate(836.265 153.73)"/>
+    <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(259 -303)">
+      <text id="FEG_LE_ROCHET" data-name="FEG LE ROCHET" transform="translate(764 730)" font-size="70" font-family="LiGothicMed, Apple LiGothic"><tspan x="0" y="0">FEG LE ROCHET</tspan></text>
+      <text id="Gnade_erleben" data-name="Gnade erleben" transform="translate(822 779)" font-size="45" font-family="LiSungLight, Apple LiSung"><tspan x="0" y="0">Gnade erleben</tspan></text>
+    </g>
+    <g id="Icon_ionic-ios-book" data-name="Icon ionic-ios-book" transform="translate(1422.618 403.863)">
+      <path id="Pfad_1" data-name="Pfad 1" d="M22.589,4.507c10.614,0,19.619,5.474,19.619,16.087v3.139h0v55.7a.386.386,0,0,1-.746.137v-.02c-2.021-6.71-7.494-13.262-16.146-13.831C18.606,65.286,12.191,68.248,7.051,73a2.115,2.115,0,0,1-1.295.569H4.873c-.726,0-1.491-.53-1.491-1.2V15.513C3.362,9.216,11.975,4.507,22.589,4.507Z" transform="translate(0 0.013)"/>
+      <path id="Pfad_2" data-name="Pfad 2" d="M38.322,4.5C27.708,4.5,18.7,9.974,18.7,20.587v3.139h0v55.7a.386.386,0,0,0,.746.137v-.02c2.021-6.71,7.73-13.321,16.146-13.831,6.455-.392,12.536,2.158,18.265,7.279a2.231,2.231,0,0,0,1.295.569h.883c.726,0,1.491-.53,1.491-1.2V15.486C57.548,9.208,48.935,4.5,38.322,4.5Z" transform="translate(27.428)"/>
+    </g>
+    <path id="Icon_awesome-minus" data-name="Icon awesome-minus" d="M654.643,14.625H50.357C22.551,14.625,0,15.923,0,17.523v2.9c0,1.6,22.551,2.9,50.357,2.9H654.643c27.807,0,50.357-1.3,50.357-2.9v-2.9C705,15.923,682.449,14.625,654.643,14.625Z" transform="translate(820.265 483.294)"/>
+  </g>
+</svg>

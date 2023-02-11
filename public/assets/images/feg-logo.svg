@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="367" height="367" viewBox="0 0 367 367">
+  <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(-805.5 -250.5)">
+    <path id="Icon_awesome-cross" data-name="Icon awesome-cross" d="M226.848,82.49H164.98V20.623A20.625,20.625,0,0,0,144.358,0H103.113A20.625,20.625,0,0,0,82.49,20.623V82.49H20.623A20.625,20.625,0,0,0,0,103.113v41.245A20.625,20.625,0,0,0,20.623,164.98H82.49V309.338a20.625,20.625,0,0,0,20.623,20.623h41.245a20.625,20.625,0,0,0,20.623-20.623V164.98h61.868a20.625,20.625,0,0,0,20.623-20.623V103.113A20.625,20.625,0,0,0,226.848,82.49Z" transform="translate(863.765 278.52)"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="182" cy="182" r="182" transform="translate(807 252)" fill="rgba(255,255,255,0)" stroke="#080000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.995"/>
+  </g>
+</svg>
