@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Home from "./component/Home/Home";
 import VernetzenElement from "./component/Vernetzen/VernetzenElement";
