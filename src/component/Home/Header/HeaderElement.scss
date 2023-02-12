@@ -38,10 +38,23 @@ header {
       font-size: 1.5rem;
       color: white;
       border-radius: 5px;
-      border-color: white;
+      border:none;
+      background-color: #285430;
       box-shadow: none;
       
       cursor: pointer;
+    }
+
+    .title-box{
+      h1{
+        font-size: 5rem;
+      }
+    }
+
+    .timer-box{
+      h4{
+        font-size: 1.5rem;
+      }
     }
 
     
@@ -54,7 +67,7 @@ header {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.7;
     z-index: 1;
   }
   
@@ -65,5 +78,95 @@ header {
   
     header video {
       display: none;
+    }
+  }
+
+
+
+//mobile
+  @media screen and (max-width: 600px){
+    header {
+      position: relative;
+      background-color: black;
+      background-image: url("../../../assets/images/header-bg.jpg");
+      background-size: cover;
+      height: 75vh;
+      min-height: 25rem;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    header video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    header .container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      z-index: 2;
+      color: white;
+      font-size: 1.5rem;
+      font-family: 'Cantarell', sans-serif;
+
+      
+
+      .title-box{
+        h1{
+          font-size: 3rem;
+        }
+      }
+        .header-button{
+          padding: 10px 24px;
+          background-color: transparent;
+          font-size: 1rem;
+          color: white;
+          border-radius: 5px;
+          border:none;
+          background-color: #285430;
+          box-shadow: none;
+          margin-top: 5px;
+          
+          cursor: pointer;
+        }
+
+        .timer{
+          width: 80%;
+        }
+  
+      
+  
+      
+    }
+    
+    header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      opacity: 0.6;
+      z-index: 1;
+    }
+    
+    @media (pointer: coarse) and (hover: none) {
+      header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+      }
+    
+      header video {
+        display: none;
+      }
     }
   }

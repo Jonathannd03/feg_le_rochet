@@ -26,11 +26,11 @@ const CountdownTimer = ({ countdownTimestampMs }) => {
 
   return (
     <motion.div
-      animate={{ color: "rgb(255,215,0)", borderColor: "rgb(255,215,0)" }}
+      animate={{ color: "#285430", borderColor: "#285430" }}
       whileHover={{
         scale: 1.1,
-        textShadow: "0px 0px 8px rgb(255,215,0)",
-        boxShadow: "0px 0px 8px rgb(255,215,0)",
+        textShadow: "0px 0px 8px #285430",
+        boxShadow: "0px 0px 8px #285430",
       }}
       className="countdown-timer"
     >

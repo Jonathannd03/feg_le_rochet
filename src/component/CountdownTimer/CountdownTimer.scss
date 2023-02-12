@@ -2,7 +2,7 @@
 .countdown-timer {
     width: 380px;
     height: 50px;
-    border: 2px solid white;
+    border: 2px solid #285430;
     border-radius: 5px;
 
     font-family: 'Cantarell', sans-serif;
@@ -20,4 +20,32 @@
 
 .two-numbers {
     width: 2ch;
+}
+
+
+
+//mobile
+@media screen and (max-width: 600px){
+    .countdown-timer {
+        width: 190px;
+        height: 50px;
+        border: 2px solid #285430;
+        border-radius: 5px;
+    
+        font-family: 'Cantarell', sans-serif;
+        font-size: 10px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .countdown-timer span {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    .two-numbers {
+        width: 2ch;
+    }
 }
