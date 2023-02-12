@@ -1,13 +1,18 @@
 import React from "react";
 import HeaderElement from "./Header/HeaderElement";
 import Cards from "./Cards/Cards";
+import Carousel from "./Carousel/Carousel";
 import { images } from "../../constants";
+import { motion } from "framer-motion";
 import "./Home.scss";
 
 const Home = () => {
   return (
     <>
+      {/* Header component */}
       <HeaderElement />
+
+      {/* Welcome message*/}
       <div className="welcome">
         <div className="welcome-msg">
           <h4>WILLKOMMEN</h4>
@@ -27,8 +32,37 @@ const Home = () => {
             <strong>wachsen</strong> und der Welt zu dienen.
           </p>
         </div>
+        <div className="wlcm-img">
+          <img src={images.wlcmImg} alt="wlcm-img" />
+        </div>
       </div>
 
+      {/* prayer request */}
+      <div className="prayer">
+        <div className="prayer-msg">
+          <h4>GEBETANLIEGEN</h4>
+          <h1>Wie können wir mit Ihnen beten?</h1>
+          <p>
+            Wir glauben, dass Gebet einen Unterschied macht. Jede Woche betet
+            unser Team über jedes Anliegen, das wir erhalten. Es ist uns eine
+            Ehre, gemeinsam mit Ihnen zu beten. Bitte geben Sie an, ob Sie
+            möchten, dass Ihr Gebet in unserer Gebetskette weitergegeben wird,
+            oder ob es vertraulich mit den Pastoren bleiben soll.
+          </p>
+          <motion.button
+            whileHover={{
+              scale: 1.1,
+              textShadow: "0px 0px 8px rgb(255, 255, 255)",
+              boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+            }}
+            className="button"
+          >
+            Beten Sie für mich
+          </motion.button>
+        </div>
+      </div>
+
+      {/* Card components*/}
       <div className="card-container">
         <Cards
           bild={images.groups}
@@ -55,6 +89,9 @@ const Home = () => {
           content="Was geht hier vor?"
         />
       </div>
+
+      {/* carousel component */}
+      <Carousel />
     </>
   );
 };
