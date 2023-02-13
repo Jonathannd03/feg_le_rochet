@@ -1,12 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
 .welcome{
+    display: flex;
+    align-content: space-between;
+    padding: 6rem 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    background-color: #F0EEED;
+
+    .welcome-msg{
+        display: block;
+        text-align: center;
+        width: 50%;
+    }
+    h1, h4{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .wlcm-img{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+
+        img{
+            width: 70%;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            border-radius: 2px;
+        }
+    }
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-column-gap:0;
+}
+
+.prayer{
     display: flex;
     justify-content: center;
     padding: 3rem;
     font-family: 'Cantarell', sans-serif;
     font-size: 1.5rem;
+    background-color: #F0EEED;
 
-    .welcome-msg{
+    .prayer-msg{
         display: block;
         text-align: center;
         width: 60%;
@@ -14,13 +53,19 @@
     h1, h4{
         font-family: 'Cantarell', sans-serif;
     }
-}
 
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    justify-items: center;
-    margin: 3rem 1.5rem;
+    .button{
+        padding: 14px 40px;
+        background-color: transparent;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        border:none;
+        background-color: #285430;
+        color: white;
+        box-shadow: none;
+        
+        cursor: pointer;
+      }
 }
 
 //tablet
@@ -52,11 +97,12 @@
 @media screen and (max-width: 600px){
 
     .welcome{
-        display: flex;
-        justify-content: center;
-        padding: 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: start;
+        padding: 6rem 1rem;
         font-family: 'Cantarell', sans-serif;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     
         .welcome-msg{
             display: block;
@@ -67,11 +113,54 @@
         h1, h4{
             font-family: 'Cantarell', sans-serif;
         }
+
+        .wlcm-img{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+    
+            img{
+                width: 90%;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+                border-radius: 2px;
+            }
+        }
     }
     .card-container {
         display: grid;
-        grid-template-columns: repeat(1, 2fr);
+        grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         margin: 3rem 0;
+    }
+
+    .prayer{
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+        font-family: 'Cantarell', sans-serif;
+        font-size: 1.3rem;
+        background-color: #F0EEED;
+    
+        .prayer-msg{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+        h1, h4{
+            font-family: 'Cantarell', sans-serif;
+        }
+        .button{
+            padding: 10px 24px;
+            background-color: transparent;
+            font-size: 1rem;
+            color: white;
+            border-radius: 5px;
+            border:none;
+            background-color: #285430;
+            box-shadow: none;
+            
+            cursor: pointer;
+          }
     }
 }
