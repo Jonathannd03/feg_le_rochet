@@ -112,39 +112,37 @@ header {
     }
     
     header .container {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+      position: relative;
       z-index: 2;
       color: white;
       font-size: 1.5rem;
       font-family: 'Cantarell', sans-serif;
-
-      
-
+  
+      .header-button{
+        padding: 10px 24px;
+        background-color: transparent;
+        font-size: 1rem;
+        color: white;
+        border-radius: 5px;
+        border:none;
+        background-color: #285430;
+        box-shadow: none;
+        
+        cursor: pointer;
+      }
+  
       .title-box{
+        margin-top: 8rem;
         h1{
           font-size: 3rem;
         }
       }
-        .header-button{
-          padding: 10px 24px;
-          background-color: transparent;
-          font-size: 1rem;
-          color: white;
-          border-radius: 5px;
-          border:none;
-          background-color: #285430;
-          box-shadow: none;
-          margin-top: 5px;
-          
-          cursor: pointer;
-        }
-
-        .timer{
-          width: 80%;
-        }
   
-      
+      .timer-box{
+        h4{
+          font-size: 1rem;
+        }
+      }
   
       
     }
@@ -156,7 +154,7 @@ header {
       height: 100%;
       width: 100%;
       background-color: black;
-      opacity: 0.6;
+      opacity: 0.7;
       z-index: 1;
     }
     
